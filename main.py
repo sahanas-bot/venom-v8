@@ -38,11 +38,11 @@ def install_requirements():
 install_requirements()
 
 # 🎛️ Telegram API token (replace with your actual token)
-TOKEN = '7424479555:AAGtNAbqXax_b3b--QnGYi5_XwBbQNw'
+TOKEN = '7152134915:AAEn9XNSkxap91DPADcRjOkityy1xefjW-w'
 bot = telebot.TeleBot(TOKEN, threaded=False)
 
 # 🛡️ List of authorized user IDs (replace with actual IDs)
-AUTHORIZED_USERS = [5588464519]
+AUTHORIZED_USERS = [6625896536]
 
 # 🌐 Global dictionary to keep track of user attacks
 user_attacks = {}
@@ -50,7 +50,7 @@ user_attacks = {}
 # ⏳ Variable to track bot start time for uptime
 bot_start_time = datetime.datetime.now()
 
-# 📜 Set up logging
+# 📜 Set up logging6625896536
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # 🛠️ Function to send UDP packets
